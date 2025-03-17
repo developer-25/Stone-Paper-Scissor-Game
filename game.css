@@ -1,0 +1,101 @@
+.game{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+}
+#stone, #paper, #scissor {
+    cursor: pointer;
+}
+#stone{
+    border-radius: 50%;
+    background-color: red;
+    padding: 1%;
+    width: 100px; /* Set the width */
+    height: 100px; /* Set the height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+            
+    
+}
+#paper{
+    border-radius: 50%;
+    background-color: green;
+    padding: 1%;
+    width: 100px; /* Set the width */
+    height: 100px; /* Set the height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#scissor{
+    border-radius: 50%;
+    background-color: blue;
+    padding: 1%;
+    width: 100px; /* Set the width */
+    height: 100px; /* Set the height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+#restart{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+   
+}
+#clickme{
+    border-radius: 15px;
+    height: 200x;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 15px 32px; 
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.container {
+    width: 100vw;
+    height: 30vh;
+    display: grid;
+    place-items: center; /* Centers the child */
+}
+
+.represent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 300px;
+    height: 200px;
+    gap: 5px;
+    text-align: center;
+    background: white;
+}
+
+.represent > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.result{
+    border: 2px solid black;
+    border-radius: 15px;
+    /* text-align: center; */
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 580px;
+    margin-top: 60px;
+
+}
